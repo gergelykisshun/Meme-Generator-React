@@ -1,0 +1,74 @@
+.form-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #672280;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.sign-up-form .input-style {
+    width: 250px;
+    height: 40px;
+    padding-inline: 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+}
+
+.sign-up-form .label-style {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-up-form .submit-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    background-color: #672280;
+}
+
+.sign-up-form .label-style input {
+    display: none;
+    appearance: none;
+}
+
+.new-input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #672280;
+}
+
+.tick-rect {
+    width: 12px;
+    height: 7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.label-style input:checked ~ .new-input-field {
+    background-color: #672280;
+}
