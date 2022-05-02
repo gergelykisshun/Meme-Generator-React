@@ -11,7 +11,6 @@ function Header(){
                 <a href="#home-section">Meme Generator</a>
                 <a href="#newsletter-section">Sign up</a>
             </div>
-            <h2>React Course - Project 3</h2>
         </header>
     )
 }

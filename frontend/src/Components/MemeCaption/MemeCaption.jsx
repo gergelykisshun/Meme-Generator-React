@@ -65,8 +65,8 @@ useDraggable(cardRef2)
                 </button>
             </form>
             <div className="meme-container">
-                <img /*onClick={imgClickHandler}*/ className="meme-img" src={meme.randomImg} alt="meme" />
                 <p className="meme-top-text" ref={cardRef}>{meme.topText}</p>
+                <img /*onClick={imgClickHandler}*/ className="meme-img" src={meme.randomImg} alt="meme" />
                 <p className="meme-bottom-text" ref={cardRef2}>{meme.bottomText}</p>
             </div>
         </section>
